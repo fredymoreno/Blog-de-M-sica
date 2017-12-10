@@ -4,25 +4,121 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Blog de Musica</title>
+
   </head>
   <body>
-    <header>
-      <!--logo-->
-      <div class="container">
-        <img src="img/logo.jpg" alt="Logo Music">
+    <div class="container">
+      <!--Encabezado-->
+      <header>
+        <div class="row position-relative-lg">
+          <div>
+            <div class="col-lg-4">
+              <img src="img/logo-music.png" alt="Logo Music" class="logo" >
+            </div>
+            <!--logo redes sociales-->
+            <div class="col-lg-3 col-lg-offset-5 text-center position-obsolute-lg" style="top: 60px;">
+
+                <a title="Music" href="https://www.instagram.com/music/"><img class="icono" src="img/istagran.png" alt="logo Istagran" width="20px"></a>
+
+                <a title="Music" href="https://www.facebook.com/MusicMundial/"><img src="img/facebook.png" alt="logo Facebook" width="20px"></a>
+
+                <a title="Music" href="https://twitter.com/SonyMusicCol?lang=es"><img class="icono" src="img/Twitter.png" alt="logo Twitter" width="20px"></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- barra de navegacion-->
+      <div class="row">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+              <span class="sr-only">(current)</span>
+              <li class="nav-item"><a class="nav-link " href="#">Mi música</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Canciones</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Albumes</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Top 10</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Más escuchados</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <!--logo redes sociales-->
-      <div class="container">
-        <img src="img/facebook.png" alt="logo Facebook">
-        <img src="img/istagran.png" alt="logo Istagran">
-        <img src="img/Twitter.png" alt="logo Twitter">
+      <br>
+      <br>
+      <!-- Contenido -->
+      <div class="row contenido">
+
+        <!-- Artículos -->
+        <section class="col-md-8">
+            <article class="clearfix">
+              <a href="#" class="img-post pull-right">
+                <img src="img/mejor-musica.png" width="150px" alt="la calidad de la musica">
+              </a>
+              <h2 class="titulo-post">Musica</h2>
+              <p class="text-justify">Las definiciones parten desde el seno de las culturas, y así, el sentido de las expresiones musicales se ve afectado por cuestiones psicológicas, sociales, culturales e históricas. De esta forma, surgen múltiples y diversas definiciones que pueden ser válidas en el momento de expresar qué se entiende por música. Ninguna, sin embargo, puede ser considerada como perfecta o absoluta.</p>
+              <div class="clearfix"></div>
+              <div class="row form-group">
+                <div class="col-xs-2 col-sm-1 text-right">
+                  <span class="glyphicon glyphicon-edit comment-icon"></span>
+                </div>
+                <div class="col-xs-10 col-sm-11">
+                  <textarea name="name" class="form-control" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+            </article>
+            <article class="clearfix">
+              <a href="#" class="img-post pull-left">
+                <img src="img/cultura.png" width="150px" alt="la calidad de la musica">
+              </a>
+              <h2 class="titulo-post">Cultura Musical</h2>
+              <p class="text-justify">Independientemente de lo que las diversas prácticas musicales de diversos pueblos y culturas tengan en común, es importante no perder de vista la diversidad en cuanto a los instrumentos utilizados para producir música, en cuanto a las formas de emitir la voz, en cuanto a las formas de tratar el ritmo y la melodía, y, sobre todo, en cuanto a la función que desempeña la música en las diferentes sociedades: no es lo mismo la música que se escucha en una celebración religiosa, que la música que se escucha en un anuncio publicitario, ni la que se baila en una discoteca. Tomando en consideración las funciones que una música determinada desempeña en un contexto social determinado podemos ser más precisos a la hora de definir las características comunes de la música, y más respetuosos a la hora de acercarnos a las músicas que no son las de nuestra sociedad.</p>
+              <div class="clearfix"></div>
+              <div class="row form-group">
+                <div class="col-xs-2 col-sm-1 text-right">
+                  <span class="glyphicon glyphicon-edit comment-icon"></span>
+                </div>
+                <div class="col-xs-10 col-sm-11">
+                  <textarea name="name" class="form-control " placeholder="Comentario"></textarea>
+                </div>
+              </div>
+          </article>
+        </section>
+        <!-- Barra lateral -->
+        <aside class="col-md-4 hidden-sm hidden-xs">
+          <div class="row">
+            <div class="col-xs-12">
+              <form>
+                <div class="form-group inner-addon left-addon">
+                  <i class="glyphicon glyphicon-search"></i>
+                  <input type="text" class="form-control" placeholder="Buscar">
+                </div>
+              </form>
+              <div class="list-group text-center">
+              <a href="#" class="list-group-item">Clasica</a>
+              <a href="#" class="list-group-item">Vallenato</a>
+              <a href="#" class="list-group-item">Salsa</a>
+              <a href="#" class="list-group-item">Reggeton</a>
+              <a href="#" class="list-group-item">Rock</a>
+              <a href="#" class="list-group-item">Pop</a>
+              <a href="#" class="list-group-item">Popular</a>
+              <a href="#" class="list-group-item">Merengue</a>
+              <a href="#" class="list-group-item">Bachata</a>
+              <a href="#" class="list-group-item">Baladas</a>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
-    </header>
-    <!--JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+      </div>
+    </div>
   </body>
 </html>
