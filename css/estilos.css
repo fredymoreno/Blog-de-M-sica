@@ -1,14 +1,17 @@
 *{
   margin: 0;
   padding: 0;
-  
+
 }
 body{
   background-color: #79272C;
 }
 header{
   background-color: #ffffff;
+  animation: slideIn 3s;
+  border-radius: 10px 10px 0 0;
 }
+
 #menu{
   background-color: rgb(221, 143, 41);
   padding: 10px;
@@ -22,8 +25,21 @@ header{
 }
 #menu nav a:hover{
   color: rgb(246, 245, 237);
-  background: rgb(173, 168, 173);
+  background: rgba(179, 179, 179, 0.84);
 }
-.contenido{
+#contenido{
   background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+}
+
+@-webkit-keyframes slideIn {
+  0%{
+  margin-top:150%;
+  }
+  60%{
+  margin-top:-5%;
+  }
+  100%{
+  margin-top:0%;
+  }
 }

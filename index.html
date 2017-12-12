@@ -13,13 +13,13 @@
     <div class="container">
       <!--Encabezado-->
       <header>
-        <div class="row">
+        <div class="row position-relative-md">
           <div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
               <img src="img/logo-music.png" alt="Logo Music" class="logo">
             </div>
             <!--logo redes sociales-->
-            <div class="col-lg-3 col-lg-offset-5 col-md-3 col-md-offset-5 text-center col-sm-12 col-xs-12 text-center" style="padding: 50px 0 20px 0">
+            <div class="col-lg-3 col-lg-offset-5 col-md-3 col-md-offset-5 text-center col-sm-12 col-xs-12 text-center position-absolute-md" style="padding: 120px 0 5px 0;">
 
                 <a title="Music" href="https://www.instagram.com/music/"><img class="icono" src="img/istagran.png" alt="logo Istagran" width="20px"></a>
 
@@ -57,72 +57,65 @@
       </section>
       <br>
       <!-- Contenido -->
-      <div class="row contenido">
-
-        <!-- Artículos -->
-        <section class="col-md-8">
-            <article class="clearfix">
-              <a href="#" class="img-post pull-right">
-                <img src="img/mejor-musica.png" width="150px" alt="la calidad de la musica">
-              </a>
-              <h2 class="titulo-post">Musica</h2>
-              <p class="text-justify">Las definiciones parten desde el seno de las culturas, y así, el sentido de las expresiones musicales se ve afectado por cuestiones psicológicas, sociales, culturales e históricas. De esta forma, surgen múltiples y diversas definiciones que pueden ser válidas en el momento de expresar qué se entiende por música. Ninguna, sin embargo, puede ser considerada como perfecta o absoluta.</p>
-              <div class="clearfix"></div>
+      <section id="contenido">
+        <div class="row">
+          <!--articulo 1-->
+          <div class="col-md-8 col-sm-12 col-xs-12" >
+            <a href="#" class="pull-right" style="padding: 8px;">
+              <img src="img/mejor-musica.png" width="150px" alt="la calidad de la musica">
+            </a>
+            <h2 style="padding: 5px;">Musica</h2>
+              <p class="text-justify" style="padding: 5px;">Las definiciones parten desde el seno de las culturas, y así, el sentido de las expresiones musicales se ve afectado por cuestiones psicológicas, sociales, culturales e históricas. De esta forma, surgen múltiples y diversas definiciones que pueden ser válidas en el momento de expresar qué se entiende por música. Ninguna, sin embargo, puede ser considerada como perfecta o absoluta.</p>
               <div class="row form-group">
                 <div class="col-xs-2 col-sm-1 text-right">
-                  <span class="glyphicon glyphicon-edit comment-icon"></span>
+                  <span class="glyphicon glyphicon-user" style="font-size: 3em; padding: 3px;"></span>
                 </div>
-                <div class="col-xs-10 col-sm-11">
-                  <textarea name="name" class="form-control" placeholder="Comentario"></textarea>
+                <div class="col-xs-9 col-sm-11">
+                  <textarea name="name" class="form-control" placeholder="Comentario" style="padding: 5px;"></textarea>
                 </div>
               </div>
-            </article>
-            <article class="clearfix">
-              <a href="#" class="img-post pull-left">
+              <!--articulo 2-->
+              <a href="#" class="img-post pull-left" style="padding: 5px;">
                 <img src="img/cultura.png" width="150px" alt="la calidad de la musica">
               </a>
-              <h2 class="titulo-post">Cultura Musical</h2>
-              <p class="text-justify">Independientemente de lo que las diversas prácticas musicales de diversos pueblos y culturas tengan en común, es importante no perder de vista la diversidad en cuanto a los instrumentos utilizados para producir música, en cuanto a las formas de emitir la voz, en cuanto a las formas de tratar el ritmo y la melodía, y, sobre todo, en cuanto a la función que desempeña la música en las diferentes sociedades: no es lo mismo la música que se escucha en una celebración religiosa, que la música que se escucha en un anuncio publicitario, ni la que se baila en una discoteca. Tomando en consideración las funciones que una música determinada desempeña en un contexto social determinado podemos ser más precisos a la hora de definir las características comunes de la música, y más respetuosos a la hora de acercarnos a las músicas que no son las de nuestra sociedad.</p>
-              <div class="clearfix"></div>
-              <div class="row form-group">
-                <div class="col-xs-2 col-sm-1 text-right">
-                  <span class="glyphicon glyphicon-edit comment-icon"></span>
+              <h2 style="padding: 5px;">Cultura Musical</h2>
+                <p class="text-justify" style="padding: 5px;">Independientemente de lo que las diversas prácticas musicales de diversos pueblos y culturas tengan en común, es importante no perder de vista la diversidad en cuanto a los instrumentos utilizados para producir música, en cuanto a las formas de emitir la voz, en cuanto a las formas de tratar el ritmo y la melodía, y, sobre todo, en cuanto a la función que desempeña la música en las diferentes sociedades: no es lo mismo la música que se escucha en una celebración religiosa, que la música que se escucha en un anuncio publicitario, ni la que se baila en una discoteca. Tomando en consideración las funciones que una música determinada desempeña en un contexto social determinado podemos ser más precisos a la hora de definir las características comunes de la música, y más respetuosos a la hora de acercarnos a las músicas que no son las de nuestra sociedad.</p>
+                <div class="row form-group">
+                  <div class="col-xs-2 col-sm-1 text-right">
+                    <span class="glyphicon glyphicon-user" style="font-size: 3em; padding: 3px;"></span>
+                  </div>
+                  <div class="col-xs-9 col-sm-11">
+                    <textarea name="name" class="form-control" placeholder="Comentario" style="padding: 5px;"></textarea>
+                  </div>
                 </div>
-                <div class="col-xs-10 col-sm-11">
-                  <textarea name="name" class="form-control " placeholder="Comentario"></textarea>
+          </div>
+          <!-- Barra lateral -->
+          <aside class="col-md-4 hidden-sm hidden-xs">
+            <div class="row">
+              <div class="col-xs-12">
+                <form style="padding: 5px;">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                    <input id="search" type="text" class="form-control" name="search" placeholder="Busqueda">
+                  </div>
+                </form>
+                <div class="list-group text-center" style="padding: 5px;">
+                <a href="#" class="list-group-item">Clasica</a>
+                <a href="#" class="list-group-item">Vallenato</a>
+                <a href="#" class="list-group-item">Salsa</a>
+                <a href="#" class="list-group-item">Reggeton</a>
+                <a href="#" class="list-group-item">Rock</a>
+                <a href="#" class="list-group-item">Pop</a>
+                <a href="#" class="list-group-item">Popular</a>
+                <a href="#" class="list-group-item">Merengue</a>
+                <a href="#" class="list-group-item">Bachata</a>
+                <a href="#" class="list-group-item">Baladas</a>
                 </div>
-              </div>
-          </article>
-        </section>
-        <!-- Barra lateral -->
-        <aside class="col-md-4 hidden-sm hidden-xs">
-          <div class="row">
-            <div class="col-xs-12">
-              <form>
-                <div class="form-group inner-addon left-addon">
-                  <i class="glyphicon glyphicon-search"></i>
-                  <input type="text" class="form-control" placeholder="Buscar">
-                </div>
-              </form>
-              <div class="list-group text-center">
-              <a href="#" class="list-group-item">Clasica</a>
-              <a href="#" class="list-group-item">Vallenato</a>
-              <a href="#" class="list-group-item">Salsa</a>
-              <a href="#" class="list-group-item">Reggeton</a>
-              <a href="#" class="list-group-item">Rock</a>
-              <a href="#" class="list-group-item">Pop</a>
-              <a href="#" class="list-group-item">Popular</a>
-              <a href="#" class="list-group-item">Merengue</a>
-              <a href="#" class="list-group-item">Bachata</a>
-              <a href="#" class="list-group-item">Baladas</a>
               </div>
             </div>
-          </div>
-        </aside>
-      </div>
-
-
-      </div>
+          </aside>
+        </div>
+      </section>
     </div>
   </body>
 </html>
